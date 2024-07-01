@@ -1,0 +1,46 @@
+.icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    color: black !important;
+    margin-bottom: 6px !important;
+}
+/* .navbar-light .navbar-toggler-icon{
+  background-image: none;
+} */
+#navbarScrollingDropdown{
+  color: rgb(64, 56, 56);
+  background-image: none;
+}
+.navbar{
+  margin-bottom: 0px;
+  margin: 0;
+  /* padding: 0; */
+  bottom: 0;
+  font-family:  Inter !important;
+  color: #343a40;
+}
+.navbar .textmehar{
+  font-family: cinzel !important;
+}
+
+.background {
+  /* background: linear-gradient(90deg, #FBCEB1, #DAA520); */
+  background: linear-gradient(90deg,white,white);
+  /* background: linear-gradient(90deg, #FBCEB1 , #4ECDC4); */
+
+  /* background: linear-gradient(90deg, #ee4fd9, #A16BFE); */
+  /* background: linear-gradient(90deg, #E13680, #A43AB2); */
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust as needed */
+  /* Additional styles for sticky navbar */
+}
+@media screen and (max-width: 400px) {
+  .icon{
+    display: none;
+  }
+}
